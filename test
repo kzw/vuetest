@@ -1,0 +1,17 @@
+#!/bin/bash -e
+start=$(date +%s)
+date
+make  local
+PATH=./node_modules/.bin/:$PATH
+jest --coverage $@
+echo ..........
+echo All unit tests passed
+
+log_time(){
+  now=$(date +%s)
+  echo -n 'from beginning it is now '
+  let "delta= $now - $1"
+  echo -n $delta
+  echo ' seconds'
+}
+log_time $start

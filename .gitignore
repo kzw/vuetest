@@ -1,0 +1,16 @@
+.DS_Store
+code/src/css/
+coverage
+index.html
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+.build
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+css/
+*.njsproj
+*.sln

@@ -1,0 +1,57 @@
+$font-family: Oswald, sans-serif;
+$legal-font: Lora, serif;
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.footer{
+  flex-shrink: 0;
+  padding: 20px;
+  background-color: #333;
+}
+html, body {
+  height: 100%;
+}
+.main{
+  flex: 1 0 auto;
+  padding: 0;
+}
+#app{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: $font-family
+}
+.legal-text {
+  font-family: $legal-font
+}
+.dropdown-menu{
+  background-color: rgb(192,194,205);
+}
+.passwordClass {
+  background-color: red
+}
+.spinner-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.8);
+}
+.spinning{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+hr.divide {
+  border-top: 2px solid orange;
+}
+.subnav{ font-size: 5.5vmin}
