@@ -4,9 +4,6 @@
   <div id="app">
     <div class="main">
       <b-navbar sticky="sticky" toggleable="lg" type="dark" variant="dark">
-        <b-navbar-brand>
-          <router-link to="/"><img src="/ico/logo-tiny.png"/></router-link>
-        </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav="is-nav">
           <b-navbar-nav class="ml-auto">
