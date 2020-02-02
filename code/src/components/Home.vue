@@ -1,21 +1,20 @@
 <template lang="pug">
-  .container
-    form
-      .form-group.form-control-inline
-        b-form-select(:options="options")
+b-form
+  b-form-group
+    b-form-select(:options="options" required)
 </template>
 <script>
 export default {
   paths: [''],
   data () {
     return {
-      messages: [
-        ['u-375', 'see']
-      ],
       options: [{text: 'message', value: 23}]
     }
-  },
-  methods: {
   }
 }
 </script>
+<style>
+.custom-select {
+-webkit-appearance: none
+}
+</style>
