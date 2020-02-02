@@ -1,8 +1,6 @@
 <template lang="pug">
 .jumbotron
   .container
-    .row
-      .col
         form
           .form-group.form-control-inline
             b-form-select(:options="options")
