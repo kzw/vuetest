@@ -1,9 +1,2 @@
-$body-bg: #efefaa;
-$body-color: #111;
-$theme-colors: (
-  "primary": #ff8c00,
-  "warning": #ff4500,
-  "danger": #ff4136
-);
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "node_modules/bootstrap-vue/src/index";

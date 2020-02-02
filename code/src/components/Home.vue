@@ -14,7 +14,7 @@ export default {
 }
 </script>
 <style>
-.custom-select {
+.ustom-select {
 -webkit-appearance: none
 }
 </style>
