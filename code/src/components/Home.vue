@@ -19,10 +19,3 @@ export default {
   }
 }
 </script>
-<style>
-.custom-select{
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-</style>
