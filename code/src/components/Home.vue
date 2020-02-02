@@ -1,9 +1,8 @@
 <template lang="pug">
-.jumbotron
   .container
-        form
-          .form-group.form-control-inline
-            b-form-select(:options="options")
+    form
+      .form-group.form-control-inline
+        b-form-select(:options="options")
 </template>
 <script>
 export default {
