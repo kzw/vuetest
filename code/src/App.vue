@@ -17,7 +17,6 @@
               <router-link to="/logIn">Log In</router-link>
             </b-nav-item>
             <b-nav-item v-if="signedIn" v-on:click="goTo('profile')"><i class="fas fa-user mr-2"></i>profile</b-nav-item>
-            <b-nav-item v-if="signedIn" v-on:click="goTo('business')"><i class="fas fa-briefcase mr-2"></i>business</b-nav-item>
             <b-nav-item-dropdown v-if="signedIn">
               <template slot="button-content"><em>{{username}}</em></template>
               <b-dropdown-item v-if="signedIn" v-on:click="logOut()">Sign Out</b-dropdown-item>
@@ -26,16 +25,12 @@
         </b-collapse>
       </b-navbar>
       <b-container>
-        <spinner></spinner>
         <b-row align-h="center">
           <b-col cols="12">
             <router-view></router-view>
           </b-col>
         </b-row>
       </b-container>
-    </div>
-    <div class="footer">
-      <p class="text-muted"><a href="/contact">Contact |</a><a class="ml-2" href="/privacy">Privacy Policy |</a><a class="ml-2" href="/terms">Terms of Use</a></p>
     </div>
   </div>
 </template>

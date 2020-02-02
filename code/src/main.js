@@ -9,7 +9,7 @@ import App from './App.vue'
 Vue.use(BootstrapVue)
 
 new Vue({
-router,
+  router,
   el: '#app',
   render: h => h(App)
 }).$mount('#app')

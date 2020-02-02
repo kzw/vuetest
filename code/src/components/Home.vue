@@ -3,11 +3,9 @@
   .container
     .row
       .col
-        b-carousel#carousel-2(controls indicators)
-          b-carousel-slide(v-for="m in messages" v-bind:key="m[0]")
-            template(v-slot:img)
-              img(src="imgPath(m[0])")
-            p.active {{ m[1] }}
+        form
+          .form-group.form-control-inline
+            b-form-select(:options="options")
 </template>
 <script>
 export default {
@@ -16,13 +14,11 @@ export default {
     return {
       messages: [
         ['u-375', 'see']
-      ]
+      ],
+      options: [{text: 'message', value: 23}]
     }
   },
   methods: {
-    imgPath (n) {
-      return '/ico/'.concat(n, '.jpg')
-    }
   }
 }
 </script>
