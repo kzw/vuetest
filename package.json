@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --hot --inline --mode development",
-    "build": "webpack --mode production --progress --hide-modules",
+    "build": "webpack --mode production --hide-modules",
     "test": "./test"
   },
   "jest": {
