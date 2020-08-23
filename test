@@ -1,0 +1,8 @@
+#!/bin/bash -e
+start=$(date +%s)
+date
+PATH=./node_modules/.bin/:$PATH
+jest __test__ 
+npm run build
+echo ..........
+echo All unit tests passed
