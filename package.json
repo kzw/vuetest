@@ -20,7 +20,7 @@
     }
   },
   "dependencies": {
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
